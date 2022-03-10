@@ -1,0 +1,42 @@
+body{
+    background-color: #000000;
+}
+.container{
+    /* border: 1px solid #c57405; */
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    text-align: center;
+}
+.quotes{
+    border: 10px solid #c57405;
+    color: grey;
+    width: 85%;
+    height: 35rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 1rem;
+}
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+.but{
+    text-align: center;
+}
+.btn{
+    padding: 1rem 2rem;
+   
+}
+@media (max-width:748px) {
+    .quotes{
+        height: 20rem;
+        width: 100%;
+    }
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+}
